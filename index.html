@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Mesozoico Slider</title>
+    <link rel="shortcut icon" href="src/imagens/patagotitan.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="src/imagens/patagotitan.png" alt="patagotitan" class="icone-titulo">
+        <h1 class="titulo">Além da Extinção - Cards</h1>
+    </header>
+
+    <main>
+        <div class="sliders">
+            <button class="btn-seta btn-voltar" id="btn-voltar">
+                <img src="src/imagens/seta.png" alt="seta voltar" class="btn-img">
+            </button>
+        
+            <ul class="lista-cartas">
+                <li class="cartao selecionado">
+                    <div class="informacoes">
+                    <h2 class="nome">Pachycormidae</h2>
+                    <img src="src/imagens/peixe.png" alt="Peixe" class="categoria">
+                    </div>
+                    <div class="container-imagem">
+                    <img src="src/imagens/pachycormidae.jpg" alt="Pachycormidae" class="imagem-principal">
+                    </div>
+                    <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Época: Triássico Inferior ao Cretáceo Inferior<br>
+                        Hábito: Carnívoros<br>
+                        Habitat: Aquático/ Marinho<br>
+                        Tamanho: Até 16 metros
+                        
+                        <details class="detalhes">
+                            <summary>Mais info...</summary>
+                            Trata-se de uma família de peixes, do mesmo grupo da maioria dos que temos à mesa. O maior peixe fóssil já encontrado está nesse grupo e podia chegar até aproximadamente 16 metros. Os <i>Leedsichthys</i>, por maior que fossem, eram inofensivos, sendo filtradores especializados em comer zooplânctons, pequenos peixes, águas-vivas e camarões. 
+                        </details>
+                    </p>
+                    </div>
+                </li>
+
+                <li class="cartao">
+                    <div class="informacoes">
+                        <h2 class="nome">Xenacanthida</h2>
+                        <img src="src/imagens/peixe.png" alt="Peixe" class="categoria">
+                    </div>
+                    <div class="container-imagem">
+                        <img src="src/imagens/xenacanthida.jpg" alt="Xenacanthida" class="imagem-principal">
+                    </div>
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto">Época: Devoniano ao Triássico Superior<br>
+                            Hábito: Carnívoro / Predadores<br>
+                            Habitat: Aquático / Água doce<br>
+                            Tamanho: 1 a 4 metros
+                            <details class="detalhes">
+                                <summary>Mais info...</summary>
+                                Uma ordem de tubarões pertencentes à 1ª irradiação do grupo. Evidências indicam que em tempos difíceis, alguns grupos eram canibais, predando os espécimes jovens. 
+                            </details>
+                        </p>
+                    </div>
+                </li>
+
+                <li class="cartao">
+                    <div class="informacoes">
+                        <h2 class="nome">Hybodontidae</h2>
+                        <img src="src/imagens/peixe.png" alt="Peixe" class="categoria">
+                    </div>
+                    <div class="container-imagem">
+                        <img src="src/imagens/hybodontidae.jpg" alt="Hybodontidae" class="imagem-principal">
+                    </div>
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto">Época: Carbonífero Inferior ao Cretáceo Superior<br>
+                            Hábito: Carnívoro / Predador oportunista<br>
+                            Habitat: Aquático / Marinho<br>
+                            Tamanho: Até 2 metros
+                            <details class="detalhes">
+                                <summary>Mais info...</summary>
+                                Família pertencente à 2ª irradiação dos tubarões. Não eram muito grandes e tinham a boca pequena, mas já possuíam o formato de corpo dos tubarões que lhe ajudavam na rápida natação, de forma a surpreender as presas. Também possuía uma estrutura óssea na frente das nadadeiras dorsais que servia de defesa. 
+                            </details>
+                        </p>
+                    </div>
+                </li>
+
+                <li class="cartao">
+                    <div class="informacoes">
+                        <h2 class="nome">Lamnidae</h2>
+                        <img src="src/imagens/peixe.png" alt="Peixe" class="categoria">
+                    </div>
+                    <div class="container-imagem">
+                        <img src="src/imagens/lamnidae.jpg" alt="Lamnidae" class="imagem-principal">
+                    </div>
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto">Época: Jurássico aos tempos atuais<br>
+                            Hábito: Carnívoro / Predador<br>
+                            Habitat: Aquático / Marinho<br>
+                            Tamanho: 2 à 17 metros
+                            <details class="detalhes">
+                                <summary>Mais info...</summary>
+                                3ª irradiação dos tubarões. Essa é a família em que o conhecido tubarão branco (que chega à 6 metros de comprimento) está inserida. Seu representante extinto mais notório é o <i>Carcharodon magalodon</i>, espécie gigantesca que tinha entre 12 à 17 metros. Cabe uma família de 6 pessoas dentro de sua boca! 
+                            </details>
+                        </p>
+                    </div>
+                </li>
+                
+                <li class="cartao fundo-2">
+                    <div class="informacoes">
+                        <h2 class="nome">Capitosauroidea</h2>
+                        <img src="src/imagens/anfibio.png" alt="Anfíbio" class="categoria">
+                    </div>
+                    <div class="container-imagem">
+                        <img src="src/imagens/capitosauroidea.jpg" alt="Capitosauroidea" class="imagem-principal">
+                    </div>
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto">Época: Triássico Inferior até o Jurássico (poucos grupos)<br>
+                            Hábito: Predador / Carnívoro<br>
+                            Habitat: Semiaquáticos / Água doce<br>
+                            Tamanho: 2 à 4 metros<br>
+                            <details class="detalhes">
+                                <summary>Mais info...</summary>
+                                Uma das antigas linhagens dos anfíbios, possuía um crânio grande e plano que podia ter mais de um metro de comprimento nos maiores animais. Capturavam suas presas abrindo a parte superior de sua boca, sugando para dentro os peixes e outros pequenos animais. Nem fazia esforço para lanchar! 
+                            </details>
+                        </p>
+                    </div>
+                </li>
+
+                <li class="cartao fundo-2">
+                    <div class="informacoes">
+                        <h2 class="nome">Chigutisauridae</h2>
+                        <img src="src/imagens/anfibio.png" alt="Anfíbio" class="categoria">
+                    </div>
+                    <div class="container-imagem">
+                        <img src="src/imagens/chigutisauridae.jpg" alt="Chigutisauridae" class="imagem-principal">
+                    </div>
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto">Época: Triássico Inferior ao Cretáceo Inferior <br>
+                            Hábito: Predador / Carnívoro<br>
+                            Habitat: Semiaquáticos / Água doce<br>
+                            Tamanho: 2 à 5 metros<br>
+                            <details class="detalhes">
+                                <summary>Mais info...</summary>
+                                Uma das antigas famílias de anfíbios que mais viveram. O gênero mais notório do grupo é o Koolasuchus (4-5 metros de comprimento) que vivia em vales na Austrália, onde na época era muito frio no inverno para os crocodilos, seus maiores rivais, conseguirem sobreviver. Ainda bem, ninguém gostaria de estar no meio de uma competição entre esses dois!
+                            </details>
+                        </p>
+                    </div>
+                </li>
+                
+                <li class="cartao fundo-3">
+                    <div class="informacoes">
+                        <h2 class="nome">Elasmosauridae</h2>
+                        <img src="src/imagens/reptil.png" alt="Réptil" class="categoria">
+                    </div>
+                    <div class="container-imagem">
+                        <img src="src/imagens/elasmosauridea.jpg" alt="Elasmosauridae" class="imagem-principal">
+                    </div>
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto">Época: Jurássico Inferior ao Cretáceo Superior<br>
+                            Hábito: Predador / Carnívoro<br>
+                            Habitat: Aquático / Marinho<br>
+                            Tamanho: 3 à 14 metros<br>
+                            <details class="detalhes">
+                                <summary>Mais info...</summary>
+                                Pertenciam ao grupo dos répteis. Levando em conta sua morfologia, provavelmente nadavam devagar e usavam seu longo pescoço para movimentos rápidos afim de capturar suas presas, animais pequenos que viviam em grupos.
+                            </details>
+                        </p>
+                    </div>
+                </li>
+
+                <li class="cartao fundo-3">
+                    <div class="informacoes">
+                        <h2 class="nome">Pliosauridae</h2>
+                        <img src="src/imagens/reptil.png" alt="Réptil" class="categoria">
+                    </div>
+                    <div class="container-imagem">
+                        <img src="src/imagens/pliosauridea.jpg" alt="Pliosauridae" class="imagem-principal">
+                    </div>
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto">Época: Jurássico Inferior ao Cretáceo Superior<br>
+                            Hábito: Predador / Carnívoro<br>
+                            Habitat: Aquático / Marinho<br>
+                            Tamanho: 3 à 15 metros<br>
+                            <details class="detalhes">
+                                <summary>Mais info...</summary>
+                                Animal marinho do grupo dos répteis facilmente reconhecido pelo seu grande crânio, que pode chegar a 3 metros de comprimento e consiste em cerca de ¼ do tamanho total do animal. Possuíam um sistema sofisticado de rastreamento através da audição e olfato além de serem predadores vorazes, caçando até mesmo outros grandes répteis marinhos.
+                            </details>
+                        </p>
+                    </div>
+                </li>
+
+                <li class="cartao fundo-3">
+                    <div class="informacoes">
+                        <h2 class="nome">Odontochelyidea</h2>
+                        <img src="src/imagens/reptil.png" alt="Réptil" class="categoria">
+                    </div>
+                    <div class="container-imagem">
+                        <img src="src/imagens/odontochelyidea.jpg" alt="Odontochelyidea" class="imagem-principal">
+                    </div>
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto">Época: Triássico Superior<br>
+                            Hábito: Carnívoro<br>
+                            Habitat: Aquático / Marinho<br>
+                            Tamanho: Aproximadamente 40 cm<br>
+                            <details class="detalhes">
+                                <summary>Mais info...</summary>
+                                Uma das tartarugas mais antigas que se tem registro. Ao contrário das que conhecemos hoje em dia, esse animal tinha dentes e apenas a parte de baixo da carapaça, o plastrão. Acredita-se que ela seja uma boa representante para se explicar a origem da carapaça.
+                            </details>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+            
+            <button class="btn-seta btn-avancar" id="btn-avancar">
+                <img src="src/imagens/seta.png" alt="seta avançar" class="btn-img">
+            </button>
+        </div>
+  
+    </main>
+
+    <script src="src/js/index.js"></script>
+</body>
+</html>
